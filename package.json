@@ -13,6 +13,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "antd": "^5.6.4",
     "babel-jest": "^27.4.2",
     "babel-loader": "^8.2.3",
     "babel-plugin-named-asset-import": "^0.3.8",
@@ -47,6 +48,8 @@
     "react-dev-utils": "^12.0.1",
     "react-dom": "^18.2.0",
     "react-refresh": "^0.11.0",
+    "react-router": "^6.14.1",
+    "react-router-dom": "^6.14.1",
     "resolve": "^1.20.0",
     "resolve-url-loader": "^4.0.0",
     "sass-loader": "^12.3.0",
@@ -75,7 +78,10 @@
     "parserOptions": {
       "babelOptions": {
         "presets": [
-          ["babel-preset-react-app", false],
+          [
+            "babel-preset-react-app",
+            false
+          ],
           "babel-preset-react-app/prod"
         ]
       }
@@ -148,5 +154,10 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.0",
+    "d3": "^7.8.5",
+    "sass": "^1.63.6"
   }
 }
